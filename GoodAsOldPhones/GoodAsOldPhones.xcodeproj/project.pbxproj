@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F132A70724910F8900BCA32F /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F132A70624910F8900BCA32F /* ProductRow.swift */; };
+		F132A7092491133500BCA32F /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F132A7082491133500BCA32F /* ProductList.swift */; };
 		F13A4B02249107A8002C1565 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A4B01249107A8002C1565 /* Product.swift */; };
 		F1ACF2CF248FDB6D00704081 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ACF2CE248FDB6D00704081 /* AppDelegate.swift */; };
 		F1ACF2D1248FDB6D00704081 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ACF2D0248FDB6D00704081 /* SceneDelegate.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		F132A70624910F8900BCA32F /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		F132A7082491133500BCA32F /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
 		F13A4B01249107A8002C1565 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		F1ACF2CB248FDB6D00704081 /* GoodAsOldPhones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodAsOldPhones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1ACF2CE248FDB6D00704081 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			children = (
 				F13A4B01249107A8002C1565 /* Product.swift */,
 				F132A70624910F8900BCA32F /* ProductRow.swift */,
+				F132A7082491133500BCA32F /* ProductList.swift */,
 				F1ACF2CE248FDB6D00704081 /* AppDelegate.swift */,
 				F1ACF2D0248FDB6D00704081 /* SceneDelegate.swift */,
 				F1ACF2D2248FDB6D00704081 /* ContentView.swift */,
@@ -276,6 +279,7 @@
 				F1ACF2CF248FDB6D00704081 /* AppDelegate.swift in Sources */,
 				F13A4B02249107A8002C1565 /* Product.swift in Sources */,
 				F132A70724910F8900BCA32F /* ProductRow.swift in Sources */,
+				F132A7092491133500BCA32F /* ProductList.swift in Sources */,
 				F1ACF2D1248FDB6D00704081 /* SceneDelegate.swift in Sources */,
 				F1ACF2D3248FDB6D00704081 /* ContentView.swift in Sources */,
 			);
