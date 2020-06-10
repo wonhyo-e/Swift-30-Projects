@@ -13,16 +13,16 @@ struct ProductDetail: View {
     
     var body: some View {
         VStack {
-            Text(product.name).font(.largeTitle).bold().padding()
+            Text(product.name).font(.largeTitle).bold()
             
             Button(action: {
                 print("Add to cart successfully")
             }) {
-                Image("button-addtocart")
+                Image("button-addtocart").renderingMode(.original)
             }
             
             Spacer()
-        }.background(product.fullScreenImage).edgesIgnoringSafeArea(.top)
+        }.background(product.fullScreenImage)
     }
 }
 
