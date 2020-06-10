@@ -11,6 +11,7 @@
 		F132A7092491133500BCA32F /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F132A7082491133500BCA32F /* ProductList.swift */; };
 		F132A70B249116CB00BCA32F /* ProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F132A70A249116CB00BCA32F /* ProductDetail.swift */; };
 		F132A70D249120C000BCA32F /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F132A70C249120C000BCA32F /* Contact.swift */; };
+		F132A70F2491267D00BCA32F /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F132A70E2491267D00BCA32F /* TabBar.swift */; };
 		F13A4B02249107A8002C1565 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A4B01249107A8002C1565 /* Product.swift */; };
 		F1ACF2CF248FDB6D00704081 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ACF2CE248FDB6D00704081 /* AppDelegate.swift */; };
 		F1ACF2D1248FDB6D00704081 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ACF2D0248FDB6D00704081 /* SceneDelegate.swift */; };
@@ -43,6 +44,7 @@
 		F132A7082491133500BCA32F /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
 		F132A70A249116CB00BCA32F /* ProductDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetail.swift; sourceTree = "<group>"; };
 		F132A70C249120C000BCA32F /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		F132A70E2491267D00BCA32F /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		F13A4B01249107A8002C1565 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		F1ACF2CB248FDB6D00704081 /* GoodAsOldPhones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodAsOldPhones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1ACF2CE248FDB6D00704081 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		F1ACF2CD248FDB6D00704081 /* GoodAsOldPhones */ = {
 			isa = PBXGroup;
 			children = (
+				F132A70E2491267D00BCA32F /* TabBar.swift */,
 				F132A70C249120C000BCA32F /* Contact.swift */,
 				F13A4B01249107A8002C1565 /* Product.swift */,
 				F132A70624910F8900BCA32F /* ProductRow.swift */,
@@ -282,6 +285,7 @@
 				F1ACF2CF248FDB6D00704081 /* AppDelegate.swift in Sources */,
 				F13A4B02249107A8002C1565 /* Product.swift in Sources */,
 				F132A70724910F8900BCA32F /* ProductRow.swift in Sources */,
+				F132A70F2491267D00BCA32F /* TabBar.swift in Sources */,
 				F132A70B249116CB00BCA32F /* ProductDetail.swift in Sources */,
 				F132A7092491133500BCA32F /* ProductList.swift in Sources */,
 				F1ACF2D1248FDB6D00704081 /* SceneDelegate.swift in Sources */,
