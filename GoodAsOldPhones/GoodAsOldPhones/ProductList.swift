@@ -10,9 +10,13 @@ import SwiftUI
 
 struct ProductList: View {
     var body: some View {
-        List(productData) {
-            ProductRow(product: $0)
-        }
+        NavigationView {
+            List(productData) {
+                
+                ProductRow(product: $0)
+                
+            }
+        }.navigationBarTitle("Products")
     }
 }
 

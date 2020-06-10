@@ -31,4 +31,8 @@ extension Product {
     var cellImage: Image {
         return Image(cellImageName)
     }
+    
+    var fullScreenImage: Image {
+        return Image(fullscreenImageName)
+    }
 }
