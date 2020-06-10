@@ -10,11 +10,8 @@ import SwiftUI
 
 struct ProductList: View {
     var body: some View {
-        List {
-            ProductRow(product: productData[0])
-            ProductRow(product: productData[1])
-            ProductRow(product: productData[2])
-            ProductRow(product: productData[3])
+        List(productData) {
+            ProductRow(product: $0)
         }
     }
 }
