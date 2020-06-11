@@ -10,6 +10,26 @@ import SwiftUI
 
 struct StopwatchView: View {
     
+    var lapResetButton: some View {
+        Button(action: {
+            
+        }) {
+            Text("Lap").foregroundColor(Color.blue)
+        }
+    }
+    
+    @ObservedObject var stopwatchState = StopwatchState()
+    
+    var startStopButton: some View {
+        Button(action: {
+            self.stopwatchState.toggle()
+            self.startStopTimer(self.startStopButton)
+        }) {
+            Text(stopwatchState.title)
+                .foregroundColor(Color(stopwatchState.foregroundColor))
+        }
+    }
+    
     var body: some View {
         NavigationView {
             GeometryReader { geometry in
@@ -20,17 +40,8 @@ struct StopwatchView: View {
                     }.frame(width: geometry.size.width, height: 156, alignment: .center)
                     
                     HStack(alignment: .center, spacing: 90) {
-                        Button(action: {
-                            
-                        }) {
-                            Text("Lap").foregroundColor(Color.blue)
-                        }
-                        
-                        Button(action: {
-                            
-                        }) {
-                            Text("Start").foregroundColor(Color(#colorLiteral(red: 0.3324309289, green: 0.9990163445, blue: 0, alpha: 1)))
-                        }
+                        self.lapResetButton
+                        self.startStopButton
                     }.frame(width: geometry.size.width, height: 140, alignment: .center).background(Color(UIColor.secondarySystemBackground))
                     
                     List {
@@ -41,6 +52,10 @@ struct StopwatchView: View {
                 }
             }.navigationBarTitle("Stopwatch", displayMode: .inline)
         }
+    }
+    
+    func startStopTimer(_ sender: Any) {
+        
     }
 }
 
