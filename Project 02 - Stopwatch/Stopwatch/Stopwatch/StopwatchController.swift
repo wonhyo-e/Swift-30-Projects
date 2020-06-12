@@ -32,6 +32,8 @@ class StopwatchController: ObservableObject {
     
     var colorByState: [State: UIColor]
     
+    var laps: [Lap] = []
+    
     @Published var title: String
     
     @Published var color: UIColor
@@ -67,13 +69,15 @@ class StopwatchController: ObservableObject {
         }
     }
     
-    func lap() {
+    func lap(timeString: String) {
+        laps.insert(Lap(id: laps.count, lapString: timeString), at: 0)
         stopwatch.restart {
             self.timeString = self.stopwatch.timeString
         }
     }
     
     func reset() {
+        laps.removeAll()
         timeString = "00:00:00"
         stopwatch.reset()
     }

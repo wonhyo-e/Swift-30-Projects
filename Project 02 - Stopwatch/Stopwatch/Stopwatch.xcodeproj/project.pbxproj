@@ -17,6 +17,7 @@
 		F1804314249272230008021E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1804312249272230008021E /* LaunchScreen.storyboard */; };
 		F180431F249272230008021E /* StopwatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F180431E249272230008021E /* StopwatchTests.swift */; };
 		F180432A249272230008021E /* StopwatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1804329249272230008021E /* StopwatchUITests.swift */; };
+		F185B6F62493D72C00830293 /* LapRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185B6F52493D72C00830293 /* LapRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		F1804325249272230008021E /* StopwatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopwatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1804329249272230008021E /* StopwatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchUITests.swift; sourceTree = "<group>"; };
 		F180432B249272230008021E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F185B6F52493D72C00830293 /* LapRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				F15F33662493BE1F00E793FC /* StopwatchTimer.swift */,
 				F180430B249272220008021E /* StopwatchView.swift */,
 				F15F3364249285D700E793FC /* StopwatchController.swift */,
+				F185B6F52493D72C00830293 /* LapRow.swift */,
 				F180430D249272230008021E /* Assets.xcassets */,
 				F1804312249272230008021E /* LaunchScreen.storyboard */,
 				F1804315249272230008021E /* Info.plist */,
@@ -277,6 +280,7 @@
 				F1804308249272220008021E /* AppDelegate.swift in Sources */,
 				F15F33672493BE1F00E793FC /* StopwatchTimer.swift in Sources */,
 				F180430A249272220008021E /* SceneDelegate.swift in Sources */,
+				F185B6F62493D72C00830293 /* LapRow.swift in Sources */,
 				F180430C249272220008021E /* StopwatchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

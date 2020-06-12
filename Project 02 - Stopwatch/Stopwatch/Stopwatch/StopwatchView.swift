@@ -28,7 +28,7 @@ struct StopwatchView: View {
         Button(action: {
             switch self.lapTimerController.state {
             case .running:
-                self.lapTimerController.lap()
+                self.lapTimerController.lap(timeString: self.mainTimerController.timeString)
             case .stop:
                 self.mainTimerController.reset()
                 self.lapTimerController.reset()
@@ -64,10 +64,8 @@ struct StopwatchView: View {
                     }.frame(width: geometry.size.width, height: 140, alignment: .center)
                         .background(Color(UIColor.secondarySystemBackground))
                     
-                    List {
-                        Text("Lap 3")
-                        Text("Lap 2")
-                        Text("Lap 1")
+                    List(self.lapTimerController.laps) { lap in
+                        LapRow(index: lap.id, timeString: lap.lapString)
                     }.frame(minWidth: nil, idealWidth: nil, maxWidth: geometry.size.width, minHeight: nil, idealHeight: nil, maxHeight: .infinity, alignment: .center)
                 }
             }.navigationBarTitle("Stopwatch", displayMode: .inline)
