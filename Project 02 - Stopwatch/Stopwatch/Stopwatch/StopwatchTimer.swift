@@ -15,7 +15,7 @@ class StopwatchTimer {
     
     var counter = 0.0
     
-    var time: String {
+    var timeString: String {
         let minutes = Int(counter / 60)
         let minutesString = String(format: "%02d", minutes)
         
@@ -33,5 +33,15 @@ class StopwatchTimer {
         
         // allows timer to fire even when the UI is being used.
         RunLoop.current.add(timer, forMode: .common)
+    }
+    
+    func reset() {
+        counter = 0.0
+        timer.invalidate()
+    }
+    
+    func restart(handler: @escaping (()-> Void)) {
+        reset()
+        fire(handler: handler)
     }
 }

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F15F3365249285D700E793FC /* StopwatchState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F3364249285D700E793FC /* StopwatchState.swift */; };
+		F15F3365249285D700E793FC /* StopwatchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F3364249285D700E793FC /* StopwatchController.swift */; };
 		F15F33672493BE1F00E793FC /* StopwatchTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F33662493BE1F00E793FC /* StopwatchTimer.swift */; };
 		F1804308249272220008021E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1804307249272220008021E /* AppDelegate.swift */; };
 		F180430A249272220008021E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1804309249272220008021E /* SceneDelegate.swift */; };
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F15F3364249285D700E793FC /* StopwatchState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchState.swift; sourceTree = "<group>"; };
+		F15F3364249285D700E793FC /* StopwatchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchController.swift; sourceTree = "<group>"; };
 		F15F33662493BE1F00E793FC /* StopwatchTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchTimer.swift; sourceTree = "<group>"; };
 		F1804304249272220008021E /* Stopwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stopwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1804307249272220008021E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 				F1804309249272220008021E /* SceneDelegate.swift */,
 				F15F33662493BE1F00E793FC /* StopwatchTimer.swift */,
 				F180430B249272220008021E /* StopwatchView.swift */,
-				F15F3364249285D700E793FC /* StopwatchState.swift */,
+				F15F3364249285D700E793FC /* StopwatchController.swift */,
 				F180430D249272230008021E /* Assets.xcassets */,
 				F1804312249272230008021E /* LaunchScreen.storyboard */,
 				F1804315249272230008021E /* Info.plist */,
@@ -273,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F15F3365249285D700E793FC /* StopwatchState.swift in Sources */,
+				F15F3365249285D700E793FC /* StopwatchController.swift in Sources */,
 				F1804308249272220008021E /* AppDelegate.swift in Sources */,
 				F15F33672493BE1F00E793FC /* StopwatchTimer.swift in Sources */,
 				F180430A249272220008021E /* SceneDelegate.swift in Sources */,
