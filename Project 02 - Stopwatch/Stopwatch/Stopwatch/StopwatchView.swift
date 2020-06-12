@@ -18,16 +18,19 @@ struct StopwatchView: View {
         }
     }
     
-    @ObservedObject var stopwatchState = StopwatchState()
+    @ObservedObject var mainTimerState = StopwatchState()
     
     var startStopButton: some View {
         Button(action: {
-            self.stopwatchState.toggle()
-            self.startStopTimer(self.startStopButton)
+            self.mainTimerState.toggle()
         }) {
-            Text(stopwatchState.title)
-                .foregroundColor(Color(stopwatchState.foregroundColor))
+            Text(mainTimerState.title)
+                .foregroundColor(Color(mainTimerState.foregroundColor))
         }
+    }
+    
+    var timerLabel: Text {
+        Text(self.mainTimerState.time).font(Font.system(size: 40))
     }
     
     var body: some View {
@@ -36,13 +39,14 @@ struct StopwatchView: View {
                 VStack {
                     VStack(alignment: .trailing, spacing: nil) {
                         Text("00:00:00").font(Font.system(size: 17))
-                        Text("00:00:00").font(Font.system(size: 40))
+                        self.timerLabel
                     }.frame(width: geometry.size.width, height: 156, alignment: .center)
                     
                     HStack(alignment: .center, spacing: 90) {
                         self.lapResetButton
                         self.startStopButton
-                    }.frame(width: geometry.size.width, height: 140, alignment: .center).background(Color(UIColor.secondarySystemBackground))
+                    }.frame(width: geometry.size.width, height: 140, alignment: .center)
+                        .background(Color(UIColor.secondarySystemBackground))
                     
                     List {
                         Text("Lap 3")
@@ -52,10 +56,6 @@ struct StopwatchView: View {
                 }
             }.navigationBarTitle("Stopwatch", displayMode: .inline)
         }
-    }
-    
-    func startStopTimer(_ sender: Any) {
-        
     }
 }
 
