@@ -9,7 +9,9 @@
 import SwiftUI
 
 struct LapRow: View {
+    
     var index: Int
+    
     var timeString: String
     
     var body: some View {
@@ -23,8 +25,8 @@ struct LapRow: View {
 
 
 struct LapRow_Previews: PreviewProvider {
-    static var testData = ["00:00:00",
-                           "12:34:56"]
+    
+    static var testData = ["00:00:00", "12:34:56"]
     
     static var previews: some View {
         Group {
@@ -32,10 +34,4 @@ struct LapRow_Previews: PreviewProvider {
             LapRow(index: 1, timeString: LapRow_Previews.testData[1])
         }.previewLayout(.fixed(width: 300, height: 70))
     }
-}
-
-struct Lap: Hashable, Codable, Identifiable {
-    var id: Int
-    
-    var lapString: String
 }

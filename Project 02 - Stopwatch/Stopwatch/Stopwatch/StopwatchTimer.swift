@@ -9,6 +9,7 @@
 import Foundation
 
 class StopwatchTimer {
+    
     static let increment = 0.03
     
     var timer = Timer()

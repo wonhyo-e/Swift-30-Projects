@@ -24,21 +24,22 @@ class StopwatchController: ObservableObject {
         }
     }
     
-    var stopwatch = StopwatchTimer()
-    
-    var state = State.stop
-    
-    var titleByState: [State: String]
-    
-    var colorByState: [State: UIColor]
-    
-    var laps: [Lap] = []
-    
     @Published var title: String
     
     @Published var color: UIColor
     
     @Published var timeString = "00:00:00"
+    
+    var laps: [Lap] = []
+    
+    var state = State.stop
+    
+    private var stopwatch = StopwatchTimer()
+    
+    private var titleByState: [State: String]
+    
+    private var colorByState: [State: UIColor]
+    
     
     init(titleByState: [State: String], colorByState: [State: UIColor]) {
         self.titleByState = titleByState

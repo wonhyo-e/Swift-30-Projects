@@ -10,11 +10,13 @@ import SwiftUI
 
 struct StopwatchView: View {
     
-    @ObservedObject var mainTimerController = StopwatchController(titleByState: [.running: "Stop", .stop: "Start"],
-                                                                  colorByState: [.running: #colorLiteral(red: 1, green: 0.1491314173, blue: 0, alpha: 1), .stop: #colorLiteral(red: 0.3324309289, green: 0.9990163445, blue: 0, alpha: 1)])
+    @ObservedObject
+    var mainTimerController = StopwatchController(titleByState: [.running: "Stop", .stop: "Start"],
+                                                  colorByState: [.running: #colorLiteral(red: 1, green: 0.1491314173, blue: 0, alpha: 1), .stop: #colorLiteral(red: 0.3324309289, green: 0.9990163445, blue: 0, alpha: 1)])
     
-    @ObservedObject var lapTimerController = StopwatchController(titleByState: [.running: "Lap", .stop: "Reset"],
-                                                                 colorByState: [.running: #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1), .stop: #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)])
+    @ObservedObject
+    var lapTimerController = StopwatchController(titleByState: [.running: "Lap", .stop: "Reset"],
+                                                 colorByState: [.running: #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1), .stop: #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)])
     
     var lapTimerLabel: Text {
         Text(lapTimerController.timeString).font(Font.system(size: 17))
@@ -34,8 +36,7 @@ struct StopwatchView: View {
                 self.lapTimerController.reset()
             }
         }) {
-            Text(lapTimerController.title)
-                .foregroundColor(Color(lapTimerController.color))
+            Text(lapTimerController.title).foregroundColor(Color(lapTimerController.color))
         }
     }
     
@@ -44,8 +45,7 @@ struct StopwatchView: View {
             self.mainTimerController.toggle()
             self.lapTimerController.toggle()
         }) {
-            Text(mainTimerController.title)
-                .foregroundColor(Color(mainTimerController.color))
+            Text(mainTimerController.title).foregroundColor(Color(mainTimerController.color))
         }
     }
     
@@ -66,7 +66,9 @@ struct StopwatchView: View {
                     
                     List(self.lapTimerController.laps) { lap in
                         LapRow(index: lap.id, timeString: lap.lapString)
-                    }.frame(minWidth: nil, idealWidth: nil, maxWidth: geometry.size.width, minHeight: nil, idealHeight: nil, maxHeight: .infinity, alignment: .center)
+                    }.frame(minWidth: nil, idealWidth: nil, maxWidth: geometry.size.width,
+                            minHeight: nil, idealHeight: nil, maxHeight: .infinity,
+                            alignment: .center)
                 }
             }.navigationBarTitle("Stopwatch", displayMode: .inline)
         }
