@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1360A3E24951A2A00EF695E /* Specs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1360A3D24951A2A00EF695E /* Specs.swift */; };
+		F1360A4024951A4200EF695E /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1360A3F24951A4200EF695E /* UIColor+Extension.swift */; };
 		F185B706249504CB00830293 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185B705249504CB00830293 /* AppDelegate.swift */; };
 		F185B708249504CB00830293 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185B707249504CB00830293 /* SceneDelegate.swift */; };
 		F185B70A249504CB00830293 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185B709249504CB00830293 /* ContentView.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F1360A3D24951A2A00EF695E /* Specs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specs.swift; sourceTree = "<group>"; };
+		F1360A3F24951A4200EF695E /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		F185B702249504CB00830293 /* FacebookMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F185B705249504CB00830293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F185B707249504CB00830293 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F1360A3C249519FA00EF695E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F1360A3D24951A2A00EF695E /* Specs.swift */,
+				F1360A3F24951A4200EF695E /* UIColor+Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		F185B6F9249504CB00830293 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +112,7 @@
 		F185B704249504CB00830293 /* FacebookMe */ = {
 			isa = PBXGroup;
 			children = (
+				F1360A3C249519FA00EF695E /* Helper */,
 				F185B705249504CB00830293 /* AppDelegate.swift */,
 				F185B707249504CB00830293 /* SceneDelegate.swift */,
 				F185B709249504CB00830293 /* ContentView.swift */,
@@ -267,9 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1360A3E24951A2A00EF695E /* Specs.swift in Sources */,
 				F185B706249504CB00830293 /* AppDelegate.swift in Sources */,
 				F185B708249504CB00830293 /* SceneDelegate.swift in Sources */,
 				F185B70A249504CB00830293 /* ContentView.swift in Sources */,
+				F1360A4024951A4200EF695E /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
