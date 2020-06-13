@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F185B706249504CB00830293 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185B705249504CB00830293 /* AppDelegate.swift */; };
+		F185B708249504CB00830293 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185B707249504CB00830293 /* SceneDelegate.swift */; };
+		F185B70A249504CB00830293 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185B709249504CB00830293 /* ContentView.swift */; };
+		F185B70C249504CC00830293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F185B70B249504CC00830293 /* Assets.xcassets */; };
+		F185B70F249504CC00830293 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F185B70E249504CC00830293 /* Preview Assets.xcassets */; };
+		F185B712249504CC00830293 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F185B710249504CC00830293 /* LaunchScreen.storyboard */; };
+		F185B71D249504CC00830293 /* FacebookMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185B71C249504CC00830293 /* FacebookMeTests.swift */; };
+		F185B728249504CC00830293 /* FacebookMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185B727249504CC00830293 /* FacebookMeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F185B719249504CC00830293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F185B6FA249504CB00830293 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F185B701249504CB00830293;
+			remoteInfo = FacebookMe;
+		};
+		F185B724249504CC00830293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F185B6FA249504CB00830293 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F185B701249504CB00830293;
+			remoteInfo = FacebookMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F185B702249504CB00830293 /* FacebookMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F185B705249504CB00830293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F185B707249504CB00830293 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F185B709249504CB00830293 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F185B70B249504CC00830293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F185B70E249504CC00830293 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F185B711249504CC00830293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F185B713249504CC00830293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F185B718249504CC00830293 /* FacebookMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F185B71C249504CC00830293 /* FacebookMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookMeTests.swift; sourceTree = "<group>"; };
+		F185B71E249504CC00830293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F185B723249504CC00830293 /* FacebookMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F185B727249504CC00830293 /* FacebookMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookMeUITests.swift; sourceTree = "<group>"; };
+		F185B729249504CC00830293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F185B6FF249504CB00830293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F185B715249504CC00830293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F185B720249504CC00830293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F185B6F9249504CB00830293 = {
+			isa = PBXGroup;
+			children = (
+				F185B704249504CB00830293 /* FacebookMe */,
+				F185B71B249504CC00830293 /* FacebookMeTests */,
+				F185B726249504CC00830293 /* FacebookMeUITests */,
+				F185B703249504CB00830293 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F185B703249504CB00830293 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F185B702249504CB00830293 /* FacebookMe.app */,
+				F185B718249504CC00830293 /* FacebookMeTests.xctest */,
+				F185B723249504CC00830293 /* FacebookMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F185B704249504CB00830293 /* FacebookMe */ = {
+			isa = PBXGroup;
+			children = (
+				F185B705249504CB00830293 /* AppDelegate.swift */,
+				F185B707249504CB00830293 /* SceneDelegate.swift */,
+				F185B709249504CB00830293 /* ContentView.swift */,
+				F185B70B249504CC00830293 /* Assets.xcassets */,
+				F185B710249504CC00830293 /* LaunchScreen.storyboard */,
+				F185B713249504CC00830293 /* Info.plist */,
+				F185B70D249504CC00830293 /* Preview Content */,
+			);
+			path = FacebookMe;
+			sourceTree = "<group>";
+		};
+		F185B70D249504CC00830293 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F185B70E249504CC00830293 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F185B71B249504CC00830293 /* FacebookMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F185B71C249504CC00830293 /* FacebookMeTests.swift */,
+				F185B71E249504CC00830293 /* Info.plist */,
+			);
+			path = FacebookMeTests;
+			sourceTree = "<group>";
+		};
+		F185B726249504CC00830293 /* FacebookMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F185B727249504CC00830293 /* FacebookMeUITests.swift */,
+				F185B729249504CC00830293 /* Info.plist */,
+			);
+			path = FacebookMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F185B701249504CB00830293 /* FacebookMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F185B72C249504CC00830293 /* Build configuration list for PBXNativeTarget "FacebookMe" */;
+			buildPhases = (
+				F185B6FE249504CB00830293 /* Sources */,
+				F185B6FF249504CB00830293 /* Frameworks */,
+				F185B700249504CB00830293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacebookMe;
+			productName = FacebookMe;
+			productReference = F185B702249504CB00830293 /* FacebookMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F185B717249504CC00830293 /* FacebookMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F185B72F249504CC00830293 /* Build configuration list for PBXNativeTarget "FacebookMeTests" */;
+			buildPhases = (
+				F185B714249504CC00830293 /* Sources */,
+				F185B715249504CC00830293 /* Frameworks */,
+				F185B716249504CC00830293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F185B71A249504CC00830293 /* PBXTargetDependency */,
+			);
+			name = FacebookMeTests;
+			productName = FacebookMeTests;
+			productReference = F185B718249504CC00830293 /* FacebookMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F185B722249504CC00830293 /* FacebookMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F185B732249504CC00830293 /* Build configuration list for PBXNativeTarget "FacebookMeUITests" */;
+			buildPhases = (
+				F185B71F249504CC00830293 /* Sources */,
+				F185B720249504CC00830293 /* Frameworks */,
+				F185B721249504CC00830293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F185B725249504CC00830293 /* PBXTargetDependency */,
+			);
+			name = FacebookMeUITests;
+			productName = FacebookMeUITests;
+			productReference = F185B723249504CC00830293 /* FacebookMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F185B6FA249504CB00830293 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = woonohyo;
+				TargetAttributes = {
+					F185B701249504CB00830293 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					F185B717249504CC00830293 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F185B701249504CB00830293;
+					};
+					F185B722249504CC00830293 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F185B701249504CB00830293;
+					};
+				};
+			};
+			buildConfigurationList = F185B6FD249504CB00830293 /* Build configuration list for PBXProject "FacebookMe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F185B6F9249504CB00830293;
+			productRefGroup = F185B703249504CB00830293 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F185B701249504CB00830293 /* FacebookMe */,
+				F185B717249504CC00830293 /* FacebookMeTests */,
+				F185B722249504CC00830293 /* FacebookMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F185B700249504CB00830293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F185B712249504CC00830293 /* LaunchScreen.storyboard in Resources */,
+				F185B70F249504CC00830293 /* Preview Assets.xcassets in Resources */,
+				F185B70C249504CC00830293 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F185B716249504CC00830293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F185B721249504CC00830293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F185B6FE249504CB00830293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F185B706249504CB00830293 /* AppDelegate.swift in Sources */,
+				F185B708249504CB00830293 /* SceneDelegate.swift in Sources */,
+				F185B70A249504CB00830293 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F185B714249504CC00830293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F185B71D249504CC00830293 /* FacebookMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F185B71F249504CC00830293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F185B728249504CC00830293 /* FacebookMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F185B71A249504CC00830293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F185B701249504CB00830293 /* FacebookMe */;
+			targetProxy = F185B719249504CC00830293 /* PBXContainerItemProxy */;
+		};
+		F185B725249504CC00830293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F185B701249504CB00830293 /* FacebookMe */;
+			targetProxy = F185B724249504CC00830293 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F185B710249504CC00830293 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F185B711249504CC00830293 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F185B72A249504CC00830293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F185B72B249504CC00830293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F185B72D249504CC00830293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FacebookMe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FacebookMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.woonohyo.FacebookMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F185B72E249504CC00830293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FacebookMe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FacebookMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.woonohyo.FacebookMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F185B730249504CC00830293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FacebookMeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.woonohyo.FacebookMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookMe.app/FacebookMe";
+			};
+			name = Debug;
+		};
+		F185B731249504CC00830293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FacebookMeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.woonohyo.FacebookMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookMe.app/FacebookMe";
+			};
+			name = Release;
+		};
+		F185B733249504CC00830293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FacebookMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.woonohyo.FacebookMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FacebookMe;
+			};
+			name = Debug;
+		};
+		F185B734249504CC00830293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FacebookMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.woonohyo.FacebookMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FacebookMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F185B6FD249504CB00830293 /* Build configuration list for PBXProject "FacebookMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F185B72A249504CC00830293 /* Debug */,
+				F185B72B249504CC00830293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F185B72C249504CC00830293 /* Build configuration list for PBXNativeTarget "FacebookMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F185B72D249504CC00830293 /* Debug */,
+				F185B72E249504CC00830293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F185B72F249504CC00830293 /* Build configuration list for PBXNativeTarget "FacebookMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F185B730249504CC00830293 /* Debug */,
+				F185B731249504CC00830293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F185B732249504CC00830293 /* Build configuration list for PBXNativeTarget "FacebookMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F185B733249504CC00830293 /* Debug */,
+				F185B734249504CC00830293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F185B6FA249504CB00830293 /* Project object */;
+}
