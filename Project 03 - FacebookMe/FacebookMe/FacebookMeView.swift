@@ -12,6 +12,8 @@ struct FacebookMeView: View {
     init() {
         // Trick for navigation bar with .inline display mode
         UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
+        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.white]
+        
     }
     
     var body: some View {
@@ -24,10 +26,14 @@ struct FacebookMeView: View {
                     .navigationBarHidden(false)
                 
                 List {
-                    Text("1")
-                    Text("2")
-                    Text("3")
-                }
+                    Section {
+                        NavigationLink(destination: EmptyView()) {
+                            UserRow(user: User(name: "Octocat", profileImageName: "octocat", education: "GitHub"))
+                        }
+                    }
+                }.listStyle(GroupedListStyle())
+                
+                Spacer()
             }.navigationBarTitle("Facebook", displayMode: .inline)
         }
     }

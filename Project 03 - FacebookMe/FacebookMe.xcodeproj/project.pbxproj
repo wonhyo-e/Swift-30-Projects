@@ -17,6 +17,8 @@
 		F185B712249504CC00830293 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F185B710249504CC00830293 /* LaunchScreen.storyboard */; };
 		F185B71D249504CC00830293 /* FacebookMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185B71C249504CC00830293 /* FacebookMeTests.swift */; };
 		F185B728249504CC00830293 /* FacebookMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185B727249504CC00830293 /* FacebookMeUITests.swift */; };
+		F1E2E5AE249606620071515C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2E5AD249606620071515C /* User.swift */; };
+		F1E2E5B3249607000071515C /* UserRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2E5B2249607000071515C /* UserRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		F185B723249504CC00830293 /* FacebookMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F185B727249504CC00830293 /* FacebookMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookMeUITests.swift; sourceTree = "<group>"; };
 		F185B729249504CC00830293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1E2E5AD249606620071515C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F1E2E5B2249607000071515C /* UserRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 		F185B704249504CB00830293 /* FacebookMe */ = {
 			isa = PBXGroup;
 			children = (
+				F1E2E5B1249606F50071515C /* View */,
+				F1E2E5AC249606510071515C /* Model */,
 				F1360A3C249519FA00EF695E /* Helper */,
 				F185B705249504CB00830293 /* AppDelegate.swift */,
 				F185B707249504CB00830293 /* SceneDelegate.swift */,
@@ -148,6 +154,22 @@
 				F185B729249504CC00830293 /* Info.plist */,
 			);
 			path = FacebookMeUITests;
+			sourceTree = "<group>";
+		};
+		F1E2E5AC249606510071515C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1E2E5AD249606620071515C /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F1E2E5B1249606F50071515C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1E2E5B2249607000071515C /* UserRow.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,7 +305,9 @@
 			files = (
 				F1360A3E24951A2A00EF695E /* Specs.swift in Sources */,
 				F185B706249504CB00830293 /* AppDelegate.swift in Sources */,
+				F1E2E5AE249606620071515C /* User.swift in Sources */,
 				F185B708249504CB00830293 /* SceneDelegate.swift in Sources */,
+				F1E2E5B3249607000071515C /* UserRow.swift in Sources */,
 				F185B70A249504CB00830293 /* FacebookMeView.swift in Sources */,
 				F1360A4024951A4200EF695E /* UIColor+Extension.swift in Sources */,
 			);
