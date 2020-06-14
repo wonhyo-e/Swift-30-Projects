@@ -11,7 +11,7 @@
 		F1360A4024951A4200EF695E /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1360A3F24951A4200EF695E /* UIColor+Extension.swift */; };
 		F185B706249504CB00830293 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185B705249504CB00830293 /* AppDelegate.swift */; };
 		F185B708249504CB00830293 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185B707249504CB00830293 /* SceneDelegate.swift */; };
-		F185B70A249504CB00830293 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185B709249504CB00830293 /* ContentView.swift */; };
+		F185B70A249504CB00830293 /* FacebookMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185B709249504CB00830293 /* FacebookMeView.swift */; };
 		F185B70C249504CC00830293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F185B70B249504CC00830293 /* Assets.xcassets */; };
 		F185B70F249504CC00830293 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F185B70E249504CC00830293 /* Preview Assets.xcassets */; };
 		F185B712249504CC00830293 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F185B710249504CC00830293 /* LaunchScreen.storyboard */; };
@@ -42,7 +42,7 @@
 		F185B702249504CB00830293 /* FacebookMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F185B705249504CB00830293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F185B707249504CB00830293 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F185B709249504CB00830293 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F185B709249504CB00830293 /* FacebookMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookMeView.swift; sourceTree = "<group>"; };
 		F185B70B249504CC00830293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F185B70E249504CC00830293 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F185B711249504CC00830293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 				F1360A3C249519FA00EF695E /* Helper */,
 				F185B705249504CB00830293 /* AppDelegate.swift */,
 				F185B707249504CB00830293 /* SceneDelegate.swift */,
-				F185B709249504CB00830293 /* ContentView.swift */,
+				F185B709249504CB00830293 /* FacebookMeView.swift */,
 				F185B70B249504CC00830293 /* Assets.xcassets */,
 				F185B710249504CC00830293 /* LaunchScreen.storyboard */,
 				F185B713249504CC00830293 /* Info.plist */,
@@ -284,7 +284,7 @@
 				F1360A3E24951A2A00EF695E /* Specs.swift in Sources */,
 				F185B706249504CB00830293 /* AppDelegate.swift in Sources */,
 				F185B708249504CB00830293 /* SceneDelegate.swift in Sources */,
-				F185B70A249504CB00830293 /* ContentView.swift in Sources */,
+				F185B70A249504CB00830293 /* FacebookMeView.swift in Sources */,
 				F1360A4024951A4200EF695E /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
