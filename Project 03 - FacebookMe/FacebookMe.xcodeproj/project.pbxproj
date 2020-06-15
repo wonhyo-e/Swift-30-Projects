@@ -19,6 +19,8 @@
 		F185B728249504CC00830293 /* FacebookMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185B727249504CC00830293 /* FacebookMeUITests.swift */; };
 		F1E2E5AE249606620071515C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2E5AD249606620071515C /* User.swift */; };
 		F1E2E5B3249607000071515C /* UserRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2E5B2249607000071515C /* UserRow.swift */; };
+		F1E2E5B5249628C80071515C /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2E5B4249628C80071515C /* MenuRow.swift */; };
+		F1E2E5B7249628CF0071515C /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2E5B6249628CF0071515C /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		F185B729249504CC00830293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1E2E5AD249606620071515C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F1E2E5B2249607000071515C /* UserRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRow.swift; sourceTree = "<group>"; };
+		F1E2E5B4249628C80071515C /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
+		F1E2E5B6249628CF0071515C /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				F1E2E5AD249606620071515C /* User.swift */,
+				F1E2E5B6249628CF0071515C /* Menu.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				F1E2E5B2249607000071515C /* UserRow.swift */,
+				F1E2E5B4249628C80071515C /* MenuRow.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -308,6 +314,8 @@
 				F1E2E5AE249606620071515C /* User.swift in Sources */,
 				F185B708249504CB00830293 /* SceneDelegate.swift in Sources */,
 				F1E2E5B3249607000071515C /* UserRow.swift in Sources */,
+				F1E2E5B5249628C80071515C /* MenuRow.swift in Sources */,
+				F1E2E5B7249628CF0071515C /* Menu.swift in Sources */,
 				F185B70A249504CB00830293 /* FacebookMeView.swift in Sources */,
 				F1360A4024951A4200EF695E /* UIColor+Extension.swift in Sources */,
 			);

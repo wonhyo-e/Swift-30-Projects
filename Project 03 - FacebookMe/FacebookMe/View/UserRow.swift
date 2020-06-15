@@ -13,7 +13,7 @@ struct UserRow: View {
     
     var body: some View {
         HStack {
-            Image(user.profileImageName).resizable().scaledToFit().frame(width: 66, height: 66)
+            Image(user.profileImageName).resizable().scaledToFit().frame(width: 64, height: 64)
             VStack(alignment: .leading, spacing: 2) {
                 Text(user.name).font(Font.system(size: 20).bold())
                 Text("View your profile").font(Font.system(size: 13).weight(.light))

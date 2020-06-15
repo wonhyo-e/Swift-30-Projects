@@ -13,7 +13,32 @@ struct FacebookMeView: View {
         // Trick for navigation bar with .inline display mode
         UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
         UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.white]
-        
+    }
+    
+    var user: User {
+        return User(name: "Octocat", profileImageName: "octocat", education: "GitHub")
+    }
+    
+    var menuSections: [[Menu]] {
+        return
+            [
+                [
+                    Menu(imageName: Specs.imageName.friends, title: "Friends"),
+                    Menu(imageName: Specs.imageName.events, title: "Events"),
+                    Menu(imageName: Specs.imageName.groups, title: "Events"),
+                    Menu(imageName: Specs.imageName.education, title: user.education),
+                    Menu(imageName: Specs.imageName.townHall, title: "Town Hall"),
+                    Menu(imageName: Specs.imageName.instantGames, title: "Instant Games")
+                ],
+                [
+                    Menu(imageName: Specs.imageName.settings, title: "Settings"),
+                    Menu(imageName: Specs.imageName.privacyShortcuts, title: "Privacy Shortcuts"),
+                    Menu(imageName: Specs.imageName.helpSupport, title: "Help and Support")
+                ],
+                [
+                    Menu(title: "Log Out", fontColor: Color.red, useNavigationLink: false)
+                ]
+        ]
     }
     
     var body: some View {
@@ -28,9 +53,24 @@ struct FacebookMeView: View {
                 List {
                     Section {
                         NavigationLink(destination: EmptyView()) {
-                            UserRow(user: User(name: "Octocat", profileImageName: "octocat", education: "GitHub"))
+                            UserRow(user: user)
                         }
                     }
+                    
+                    ForEach(menuSections, id: \.self) { menus in
+                        Section {
+                            ForEach(menus) { menu in
+                                if menu.useNavigationLink {
+                                    NavigationLink(destination: EmptyView()) {
+                                        MenuRow(menu: menu)
+                                    }
+                                } else {
+                                    MenuRow(menu: menu)
+                                }
+                            }
+                        }
+                    }
+                    
                 }.listStyle(GroupedListStyle())
                 
                 Spacer()

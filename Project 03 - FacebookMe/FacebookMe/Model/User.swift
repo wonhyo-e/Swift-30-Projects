@@ -6,7 +6,7 @@
 //  Copyright © 2020 woonohyo. All rights reserved.
 //
 
-import SwiftUI
+import Foundation
 
 class User {
     
